@@ -44,7 +44,7 @@ class AdminLogin extends Component {
         },
         body: JSON.stringify(data)
       }
-      const response = await fetch("http://localhost:3030/login/admin", options)
+      const response = await fetch("https://resumejobboardback.onrender.com/login/admin", options)
       console.log(response)
 
       if (response.ok === true) {

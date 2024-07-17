@@ -44,7 +44,7 @@ class BlogItemDetailsStudent extends Component {
         },
         body: JSON.stringify(data),
       }
-      const response = await fetch("http://localhost:3030/studentapply/post", options)
+      const response = await fetch("https://resumejobboardback.onrender.com/studentapply/post", options)
       const data1 = await response.text()
       console.log(data1)
 
@@ -62,7 +62,7 @@ class BlogItemDetailsStudent extends Component {
         },
         body: JSON.stringify(data2),
       }
-      const response1 = await fetch("http://localhost:3030/applyjob/post", options1)
+      const response1 = await fetch("https://resumejobboardback.onrender.com/applyjob/post", options1)
       const data3 = await response1.text()
       console.log(data3)
 
@@ -135,7 +135,7 @@ class BlogItemDetailsStudent extends Component {
     const { id, openToApply, notApplied, applied, admin} = params
     console.log(openToApply, notApplied, applied)
 
-    const response = await fetch(`http://localhost:3030/jobdes/${id}`)
+    const response = await fetch(`https://resumejobboardback.onrender.com/jobdes/${id}`)
     const data = await response.json()
     this.setState({ list1: data, there: true,admin1:admin, open:openToApply, apply:applied, not:notApplied })
 

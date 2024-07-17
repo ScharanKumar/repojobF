@@ -20,7 +20,7 @@ class AdminJobs extends Component {
         "Content-Type": "application/json"
       }
     }
-    const responsedata = await fetch(`http://localhost:3030/jobs/get/companyapplied/${id}`, options1)
+    const responsedata = await fetch(`https://resumejobboardback.onrender.com/jobs/get/companyapplied/${id}`, options1)
     const data = await responsedata.text()
     console.log(data)
     const options2 = {
@@ -30,7 +30,7 @@ class AdminJobs extends Component {
         Accept: "application/json",
       }
     }
-    const responsedata1 = await fetch("http://localhost:3030/jobs/get", options2)
+    const responsedata1 = await fetch("https://resumejobboardback.onrender.com/jobs/get", options2)
     const y = await responsedata1.json()
     this.setState({ list1: y, there1: true, jobrole: "", company: "", salary: "", lastdatetoapply: "", description: "", location: '', jobtype: '', industry: "" })
   }
@@ -43,7 +43,7 @@ class AdminJobs extends Component {
         "Content-Type": "application/json"
       }
     }
-    const responsedata = await fetch(`http://localhost:3030/delete/jobs/${id}`, options1)
+    const responsedata = await fetch(`https://resumejobboardback.onrender.com/delete/jobs/${id}`, options1)
     const data = await responsedata.text()
     console.log(data)
     const options2 = {
@@ -53,7 +53,7 @@ class AdminJobs extends Component {
         Accept: "application/json",
       }
     }
-    const responsedata1 = await fetch("http://localhost:3030/jobs/get", options2)
+    const responsedata1 = await fetch("https://resumejobboardback.onrender.com/jobs/get", options2)
     const y = await responsedata1.json()
     this.setState({ list1: y, there1: true, jobrole: "", company: "", salary: "", lastdatetoapply: "", description: "", location: '', jobtype: '', industry: "" })
   }
@@ -84,7 +84,7 @@ class AdminJobs extends Component {
       };
 
 
-      const response = await fetch("http://localhost:3030/jobs/post", options)
+      const response = await fetch("https://resumejobboardback.onrender.com/jobs/post", options)
       const data1 = await response.text()
       console.log(data1)
       const options1 = {
@@ -95,7 +95,7 @@ class AdminJobs extends Component {
 
         }
       }
-      const responsedata = await fetch("http://localhost:3030/jobs/get/", options1)
+      const responsedata = await fetch("https://resumejobboardback.onrender.com/jobs/get/", options1)
       const y = await responsedata.json()
       this.setState({ list1: y, there1: true, jobrole: "", company: "", salary: "", lastdatetoapply: "", description: "", location: '', jobtype: '', industry: "" })
     }
@@ -146,7 +146,7 @@ class AdminJobs extends Component {
 
       }
     }
-    const responsedata = await fetch("http://localhost:3030/jobs/get", options1)
+    const responsedata = await fetch("https://resumejobboardback.onrender.com/jobs/get", options1)
     const y = await responsedata.json()
     this.setState({ list1: y })
   }

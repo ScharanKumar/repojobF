@@ -21,7 +21,7 @@ class Jobsopentoapply extends Component {
 
       }
     }
-    const responsedata = await fetch(`http://localhost:3030/jobs/get/opentoapply/${name}`, options1)
+    const responsedata = await fetch(`https://resumejobboardback.onrender.com/jobs/get/opentoapply/${name}`, options1)
     const y = await responsedata.json()
     console.log(y.length)
     if (y.length!==0){
@@ -41,7 +41,7 @@ class Jobsopentoapply extends Component {
 
       }
     }
-    const responsedata = await fetch(`http://localhost:3030/jobs/get/applied/${name}`, options1)
+    const responsedata = await fetch(`https://resumejobboardback.onrender.com/jobs/get/applied/${name}`, options1)
     const y = await responsedata.json()
     console.log(y)
     if (y.length!==0){
@@ -61,7 +61,7 @@ class Jobsopentoapply extends Component {
 
       }
     }
-    const responsedata = await fetch(`http://localhost:3030/jobs/get/notappliedontime/${name}`, options1)
+    const responsedata = await fetch(`https://resumejobboardback.onrender.com/jobs/get/notappliedontime/${name}`, options1)
     const y = await responsedata.json()
     console.log(y.length)
     if (y.length!==0){

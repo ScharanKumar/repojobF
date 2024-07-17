@@ -25,7 +25,7 @@ class AdminRegister extends Component {
                 },
                 body: JSON.stringify(data)
             }
-            const res1 = await fetch("http://localhost:3030/register/admin", options)
+            const res1 = await fetch("https://resumejobboardback.onrender.com/register/admin", options)
             console.log(res1)
             const resdata = await res1.text()
             console.log(resdata)

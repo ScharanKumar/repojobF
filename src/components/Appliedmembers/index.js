@@ -20,7 +20,7 @@ class Appliedmembers extends Component{
             "Content-Type": "application/json"
           }
         }
-        const responsedata = await fetch(`http://localhost:3030/jobs/get/companyapplied/${id}`, options1)
+        const responsedata = await fetch(`https://resumejobboardback.onrender.com/jobs/get/companyapplied/${id}`, options1)
         const data = await responsedata.json()
         console.log(data)
         if (data.length!==0){
