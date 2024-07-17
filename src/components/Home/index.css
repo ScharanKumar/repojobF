@@ -1,0 +1,44 @@
+.homeCon1{
+    background-color: rgb(240, 245, 252);
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.homeCon2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 50px;
+}
+.homeCon3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 27, 32);
+    height: 40px;
+    width: 100%;
+}
+.homepageImage{
+    height: 350px;
+    background-size: cover;
+    margin: 20px;
+}
+.headHomepage1{
+    font-size: 60px;
+}
+.spanColor{
+    color: blueviolet;
+}
+.paraHomepage1{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(97, 95, 95);
+    /* padding: 0px;
+    margin: 0px; */
+}

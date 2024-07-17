@@ -1,0 +1,86 @@
+.container15{
+    background-color: rgb(240, 245, 252);
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.headery{
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgb(240, 245, 252);
+    border-width: 0px;
+     
+}
+.horizonbottom{
+    width: 95vw;
+    color: black;
+    box-sizing: content-box;
+}
+.horizon{
+    border-width: 1px;
+    border-style: solid;
+    color: Blue;
+    /* background-color: blue; */
+    /* padding: 0px; */
+}
+.headerz{
+    color: blue;
+    padding-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(240, 245, 252);
+    border-width: 0px;
+    
+    font-size: 20px;
+    font-weight: 700;
+    
+    text-decoration: none;
+}
+.headercon{
+    display: flex;
+    width: 40%;
+    height: 100px;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(201, 196, 196);
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card15{
+    margin: 10px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(204, 202, 202);
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+    align-items: center;
+    padding: 40px;
+}
+.head15{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.paraJobs{
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    margin: 100px;
+}

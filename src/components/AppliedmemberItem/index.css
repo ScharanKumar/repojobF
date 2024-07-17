@@ -1,0 +1,14 @@
+.card15{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(135, 135, 135);
+    background-color: whitesmoke;
+    width: 60vw;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
